@@ -3,7 +3,7 @@ workspace: {}
 package:
   name: yoga-om-node
   publish:
-    version: 1.0.1
+    version: 1.0.2
     license: MIT-0
     exclude:
       - "src/**/*.test.purs"

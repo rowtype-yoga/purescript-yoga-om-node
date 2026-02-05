@@ -1,6 +1,6 @@
 {
   "name": "purescript-yoga-om-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node.js extensions for yoga-om",
   "license": "MIT-0",
   "repository": {
