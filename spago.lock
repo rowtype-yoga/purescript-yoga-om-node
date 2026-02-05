@@ -33,10 +33,10 @@
               "prelude": ">=6.0.1 <7.0.0"
             },
             {
-              "spec": ">=7.0.0 <8.0.0"
+              "spec": ">=7.6.1 <8.0.0"
             },
             {
-              "yoga-om": ">=0.1.0 <2.0.0"
+              "yoga-om-core": ">=1.0.5 <2.0.0"
             }
           ],
           "build_plan": [
@@ -110,13 +110,13 @@
             "unfoldable",
             "unsafe-coerce",
             "variant",
-            "yoga-om"
+            "yoga-om-core"
           ]
         },
         "test": {
           "dependencies": [
             {
-              "spec": ">=7.0.0 <8.0.0"
+              "spec": ">=7.6.1 <8.0.0"
             }
           ],
           "build_plan": []
@@ -1052,10 +1052,10 @@
         "unsafe-coerce"
       ]
     },
-    "yoga-om": {
+    "yoga-om-core": {
       "type": "registry",
-      "version": "0.1.0",
-      "integrity": "sha256-0EGWo/UOVLzZ14DPtdv0C+bTvNO49wNgtTBIXI6QHqU=",
+      "version": "1.0.5",
+      "integrity": "sha256-YMJKVwUsmLOoGE3sQr/+xc5F8OsV5j+xKJa4eDYBv48=",
       "dependencies": [
         "aff",
         "avar",
@@ -1072,6 +1072,7 @@
         "prelude",
         "record",
         "record-studio",
+        "spec",
         "tailrec",
         "transformers",
         "tuples",
